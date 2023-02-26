@@ -15,6 +15,7 @@
   },
   "devDependencies": {
     "@playwright/test": "1.31.1",
+    "@rollup/pluginutils": "^5.0.2",
     "@sveltejs/adapter-auto": "next",
     "@sveltejs/adapter-static": "^2.0.1",
     "@sveltejs/kit": "next",
