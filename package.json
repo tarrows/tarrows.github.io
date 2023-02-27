@@ -2,6 +2,7 @@
   "name": "tarrows.github.io",
   "version": "0.0.1",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",
@@ -19,6 +20,7 @@
     "@sveltejs/adapter-auto": "next",
     "@sveltejs/adapter-static": "^2.0.1",
     "@sveltejs/kit": "next",
+    "@types/mdast": "^3.0.10",
     "@typescript-eslint/eslint-plugin": "^5.53.0",
     "@typescript-eslint/parser": "^5.53.0",
     "eslint": "^8.35.0",
@@ -27,12 +29,20 @@
     "npm-check-updates": "^16.7.9",
     "prettier": "^2.8.4",
     "prettier-plugin-svelte": "^2.9.0",
+    "rehype-katex": "^6.0.2",
+    "rehype-stringify": "^9.0.3",
+    "remark-frontmatter": "^4.0.1",
+    "remark-gfm": "^3.0.1",
+    "remark-math": "^5.1.1",
+    "remark-parse": "^10.0.1",
+    "remark-rehype": "^10.1.0",
     "svelte": "^3.55.1",
     "svelte-check": "^3.0.4",
     "svelte-preprocess": "^5.0.1",
+    "to-vfile": "^7.2.4",
     "tslib": "^2.5.0",
     "typescript": "^4.9.5",
+    "unified": "^10.1.2",
     "vite": "^4.1.4"
-  },
-  "type": "module"
+  }
 }
