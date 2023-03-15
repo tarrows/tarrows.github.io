@@ -3,6 +3,7 @@
   import Paragraph from './Paragraph.svelte';
   import Heading from './Heading.svelte';
   import Katex from './Katex.svelte';
+  import Table from './Table.svelte';
   export let data: PageData;
 </script>
 
@@ -13,6 +14,8 @@
     <Paragraph node={x} />
   {:else if x.type === 'math'}
     <Katex displayMode>{x.value}</Katex>
+  {:else if x.type === 'table'}
+    <Table node={x} />
   {:else}
     <p>{JSON.stringify(x)}</p>
   {/if}
