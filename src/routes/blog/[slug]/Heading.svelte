@@ -9,9 +9,9 @@
 </script>
 
 {#if node.depth === 1}
-<h1>{text}</h1>
+  <h1>{text}</h1>
 {:else if node.depth === 2}
-<h2>{text}</h2>
+  <h2>{text}</h2>
 {:else}
-<p>{text}</p>
+  <p>{text}</p>
 {/if}

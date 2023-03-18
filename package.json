@@ -14,6 +14,9 @@
     "format": "prettier --plugin-search-dir . --write .",
     "update:packages": "ncu"
   },
+  "dependencies": {
+    "katex": "^0.16.4"
+  },
   "devDependencies": {
     "@playwright/test": "1.31.1",
     "@rollup/pluginutils": "^5.0.2",
@@ -26,6 +29,7 @@
     "eslint": "^8.35.0",
     "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-svelte3": "^4.0.0",
+    "mdast-util-math": "^2.0.2",
     "npm-check-updates": "^16.7.9",
     "prettier": "^2.8.4",
     "prettier-plugin-svelte": "^2.9.0",
